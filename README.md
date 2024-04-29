@@ -1,7 +1,10 @@
+### Camilo Heras y Hector Camacho
+
 # COVID-19 Dashboard
 
 The COVID-19 Dashboard is an interactive web application designed to visualize various statistics related to the COVID-19 pandemic. It leverages a MongoDB database to store the data and uses a Python Dash application for the web interface.
 
+The dataset was taken from https://ourworldindata.org/covid-deaths
 ## Features
 
 - Visualization of COVID-19 data across different continents and countries.

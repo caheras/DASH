@@ -1,3 +1,4 @@
+## Proyecto por Camilo Heras y Hector Camacho para el curso de Bases de Datos
 import dash
 import dash_bootstrap_components as dbc
 from dash import html, dcc, Input, Output, State
