@@ -36,6 +36,6 @@ pip install dash dash-bootstrap-components plotly pandas pymongo
 ```
 ## Configuration
 
-- First run the backend.py script to install the database locally on your machine
+- First run the backend.py script to install the database locally on your machine (Do not panic if it looks stuck, be patient)
 - Run the dashboard.py script to deploy the dashboard (be patient, it may take a bit to load)
 - Click on the link that appears on the terminal and the dashboard should appear on your browser of choice
