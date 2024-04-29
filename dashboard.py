@@ -75,9 +75,11 @@ except Exception as e:
 if 'All Continents' not in continent_options:
     continent_options.insert(0, 'All Continents')
 
-# Create options for the Dropdown, excluding any None values
-dropdown_options = [{'label': continent, 'value': continent} for continent in continent_options]
+# Filter out the 'NaN' string if the NaN values have been converted to string
+valid_continent_options = [option for option in continent_options if option != 'nan']
 
+# Now create your dropdown options
+dropdown_options = [{'label': continent, 'value': continent} for continent in valid_continent_options]
 
 
 # Initialize Dash app
